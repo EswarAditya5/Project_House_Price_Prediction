@@ -23,7 +23,7 @@ This project is licensed under the GPU License.
 
 ### Acknowledgments
 - The dataset used in this project is sourced from: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
-- The Random Forest algorithm is implemented using the scikit-learn library.
+- The Gradient Boosting Machine algorithm is implemented using the scikit-learn library.
 
 ### Contact
 If you have any questions or suggestions regarding this project, please feel free to contact me at eswaraditya63@gmail.com
