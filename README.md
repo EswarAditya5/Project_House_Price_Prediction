@@ -1,64 +1,70 @@
 # Project_House_Price_Prediction
 
 ### Data Description:
-MSSubClass: Identifies the type of dwelling involved in the sale.	
+**MSSubClass:** *Identifies the type of dwelling involved in the sale*.<br>	
+| Count | Type_of_Dwelling |
+|-----|--|
+| 20	| 1-STORY 1946 & NEWER ALL STYLES.<br> |
+| 30	| 1-STORY 1945 & OLDER.<br> |
+| 40	| 1-STORY W/FINISHED ATTIC ALL AGES<br> |
+| 45	| 1-1/2 STORY - UNFINISHED ALL AGES<br> |
+| 50	| 1-1/2 STORY FINISHED ALL AGES<br> |
+| 60	| 2-STORY 1946 & NEWER<br> |
+| 70	| 2-STORY 1945 & OLDER<br> |
+| 75	| 2-1/2 STORY ALL AGES<br> |
+| 80	| SPLIT OR MULTI-LEVEL<br> |
+| 85	| SPLIT FOYER<br> |
+| 90	| DUPLEX - ALL STYLES AND AGES<br> |
+| 120	| 1-STORY PUD (Planned Unit Development) - 1946 & NEWER<br> |
+| 150	| 1-1/2 STORY PUD - ALL AGES<br> |
+| 160	| 2-STORY PUD - 1946 & NEWER<br> |
+| 180	| PUD - MULTILEVEL - INCL SPLIT LEV/FOYER<br> |
+| 190	| 2 FAMILY CONVERSION - ALL STYLES AND AGES<br> |
 
-        20	1-STORY 1946 & NEWER ALL STYLES
-        30	1-STORY 1945 & OLDER
-        40	1-STORY W/FINISHED ATTIC ALL AGES
-        45	1-1/2 STORY - UNFINISHED ALL AGES
-        50	1-1/2 STORY FINISHED ALL AGES
-        60	2-STORY 1946 & NEWER
-        70	2-STORY 1945 & OLDER
-        75	2-1/2 STORY ALL AGES
-        80	SPLIT OR MULTI-LEVEL
-        85	SPLIT FOYER
-        90	DUPLEX - ALL STYLES AND AGES
-       120	1-STORY PUD (Planned Unit Development) - 1946 & NEWER
-       150	1-1/2 STORY PUD - ALL AGES
-       160	2-STORY PUD - 1946 & NEWER
-       180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
-       190	2 FAMILY CONVERSION - ALL STYLES AND AGES
-
-MSZoning: Identifies the general zoning classification of the sale.
-		
-       A	Agriculture
-       C	Commercial
-       FV	Floating Village Residential
-       I	Industrial
-       RH	Residential High Density
-       RL	Residential Low Density
-       RP	Residential Low Density Park 
-       RM	Residential Medium Density
+**MSZoning:** *Identifies the general zoning classification of the sale.*
+| Shortcut | Zone_Classification |
+|--|--|		
+| A	| Agriculture |
+| C	| Commercial |
+| FV	| Floating Village Residential |
+| I	| Industrial | 
+| RH	| Residential High Density | 
+| RL	| Residential Low Density | 
+| RP	| Residential Low Density Park |
+| RM	| Residential Medium Density |
 	
-LotFrontage: Linear feet of street connected to property
+**LotFrontage:** *Linear feet of street connected to the property*
 
-LotArea: Lot size in square feet
+**LotArea:** *Lot size in square feet*
 
-Street: Type of road access to property
-
-       Grvl	Gravel	
-       Pave	Paved
+**Street:** *Type of road access to property*
+| Shortcut | Type_of_road |
+|--|--|
+| Grvl	| Gravel |
+| Pave	| Paved |
        	
-Alley: Type of alley access to property
-
-       Grvl	Gravel
-       Pave	Paved
-       NA 	No alley access
+**Alley:** *Type of alley access to property*
+| Shortcut | Type_of_Alley |
+|--|--|
+| Grvl	| Gravel |
+| Pave	| Paved |
+| NA 	| No alley access |
 		
-LotShape: General shape of property
-
-       Reg	Regular	
-       IR1	Slightly irregular
-       IR2	Moderately Irregular
-       IR3	Irregular
+**LotShape:** *General shape of property*
+| Shortcut | General_Shape |
+|--|--|
+| Reg	| Regular | 	
+| IR1	| Slightly irregular |
+| IR2	| Moderately Irregular |
+| IR3	| Irregular |
        
-LandContour: Flatness of the property
-
-       Lvl	Near Flat/Level	
-       Bnk	Banked - Quick and significant rise from street grade to building
-       HLS	Hillside - Significant slope from side to side
-       Low	Depression
+**LandContour:** *Flatness of the property*
+| Shortcut | Flatness_type |
+|--|--|
+| Lvl	| Near Flat/Level |	
+| Bnk	| Banked - Quick and significant rise from street grade to building |
+| HLS	| Hillside - Significant slope from side to side |
+| Low	| Depression |
 		
 Utilities: Type of utilities available
 		
