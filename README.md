@@ -4,24 +4,24 @@
 **Data Collection: Kaggle Data link:** https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
 
 ### File descriptions
-**train.csv** - the training set
-**test.csv** - the test set
-**data_description.txt** - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here
+**train.csv** - the training set.<br>
+**test.csv** - the test set.<br>
+**data_description.txt** - full description of each column<br>
 
 ### Comprehensive Data Exploration with Python.
-Understand how variables are distributed and how they interact
-Apply different transformations before training machine learning models
+- Understand how variables are distributed and how they interact
+- Apply different transformations before training machine learning models
 
 ### House Prices EDA
-Learn to use visualization techniques to study missing data and distributions
-Includes correlation heatmaps, p, and t-SNE to help inform appropriate inputs to a linear model
+- Learn to use visualization techniques to study missing data and distributions
+- Includes correlation heatmaps, p, and t-SNE to help inform appropriate inputs to a linear model
 
 ### A Study on Regression Applied to the Dataset
-Demonstrate effective tactics for feature engineering
-Explore linear regression with different regularization methods including ridge, LASSO, and ElasticNet using scikit-learn
+- Demonstrate effective tactics for feature engineering
+- Explore linear regression with different regularization methods including ridge, LASSO, and ElasticNet using scikit-learn
 
 ### Regularized Linear Models
-Build a basic linear model
+- Build a basic linear model
 
 **Data Preprocessing:** Cleaning and preprocessing the dataset to handle missing values, outliers, and inconsistencies. This step also involves transforming categorical variables into numerical representations, normalizing numeric features, and splitting the dataset into training and testing subsets.
 
