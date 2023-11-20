@@ -37,9 +37,6 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 ### Objective:
 Predict the secondhand price of a House using 79 Independent variables describing (almost) every feature of the residential home.
 
-### Goal
-We need to predict the sales price for each house. For each Id in the test set, we need to predict the value of the SalePrice variable. 
-
 ### Learning:
 Missing Value Imputation Dealing with noise, understanding model performance, and comparing them.
 
