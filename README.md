@@ -19,7 +19,7 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 ### House Prices EDA
 - Learn to use visualization techniques to study missing data and distributions
-- Includes correlation heatmaps, p, and t-SNE to help inform appropriate inputs to a linear model
+- Includes correlation heatmaps, bar plots, and pie plots to help inform appropriate inputs to a linear model
 
 ### A Study on Regression Applied to the Dataset
 - Demonstrate effective tactics for feature engineering
@@ -34,8 +34,14 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 **Model Evaluation:** Assessing the performance of the trained linear regression model using evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), and R-squared. These metrics provide insights into how well the model predicts the values and indicate its overall accuracy.
 
+### Objective:
+Predict the secondhand price of a House using 79 Independent variables describing (almost) every feature of the residential home.
+
 ### Goal
 We need to predict the sales price for each house. For each Id in the test set, we need to predict the value of the SalePrice variable. 
+
+### Learning:
+Missing Value Imputation Dealing with noise, understanding model performance, and comparing them.
 
 ### License:
 This project is licensed under the GPU License.
