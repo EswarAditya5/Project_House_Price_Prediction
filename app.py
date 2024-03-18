@@ -153,15 +153,15 @@ st.title('House Price Prediction')
 st.header('House Details')
 col1,col2,col3=st.columns(5)
 with col1:
-    age = st.slider('age',2,100,1)
+  age = st.slider('age',2,100,1)
+  MSSubClass=st.input('MSSubClass')
 with col2:
-    bmi = st.slider('bmi',1,60,4)
+  bmi = st.slider('bmi',1,60,4)
 with col3:
-    children = st.slider('children',0,5,0)
+  children = st.slider('children',0,5,0)
 
  
- SalePrice  the property's sale price in dollars
-MSSubClass The building class
+ SalePrice  the property's sale price in dollarss
 MSZoning The general zoning classification
 LotFrontage Linear feet of street connected to property
 LotArea Lot size in square feet
